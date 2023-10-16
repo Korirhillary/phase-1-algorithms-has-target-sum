@@ -1,20 +1,15 @@
 function hasTargetSum(array, target) {
   // Write your algorithm here
+  const num1 = array.any;
+  const num2 = array.any;
+
+ 
+  if (num1 + num2 === target) {
+    return true;
+  } else if (num1 + num2 != target) {
+    return false;
 }
-
-/* 
-  Write the Big O time complexity of your function here
-*/
-
-/* 
-  Add your pseudocode here
-*/
-
-/*
-  Add written explanation of your solution here
-*/
-
-// You can run `node index.js` to view these console logs
+}
 if (require.main === module) {
   // add your own custom tests in here
   console.log("Expecting: true");
